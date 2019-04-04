@@ -15,7 +15,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 
 @NgModule({
   imports:      [ BrowserModule,RouterModule.forRoot([
-{ path: 'admin-panel', component: AdminPanelComponent },
+{ path: "", component: AdminPanelComponent },
 ]), FormsModule ],
   declarations: [ AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent ],
   bootstrap:    [ AppComponent ]
