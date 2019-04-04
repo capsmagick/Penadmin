@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import {Routes} from '@angular/router'
 import { RouterModule } from '@angular/router'
+import {APP_BASE_HREF} from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -17,7 +18,9 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
   imports:      [ BrowserModule,RouterModule.forRoot([
 { path: "", component: AdminPanelComponent },
 ]), FormsModule ],
+  providers: [{provide: APP_BASE_HREF, useValue : '/' }],
   declarations: [ AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent ],
   bootstrap:    [ AppComponent ]
+  
 })
 export class AppModule { }
