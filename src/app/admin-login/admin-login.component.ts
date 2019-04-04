@@ -8,13 +8,13 @@ import {Router} from '@angular/router'
 })
 export class AdminLoginComponent implements OnInit {
 
-  constructor(private route : Router ) { }
+  constructor(private router: Router ) { }
 
   ngOnInit() {
   }
   onLogin(){
 
-    this.route.navigate(['/admin-panel']);
+    this.router.navigate(['admin-panel']);
 
 
   }
