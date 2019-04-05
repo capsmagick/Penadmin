@@ -14,7 +14,7 @@ export class AdminLoginComponent implements OnInit {
   }
   onLogin(){
 
-    this.router.navigateByUrl('/admin-panel');
+    this.router.navigateByUrl('./admin-panel');
 
 
   }

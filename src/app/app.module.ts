@@ -11,6 +11,7 @@ import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { NewProductComponent } from './admin-panel/new-product/new-product.component';
 import { SideNavComponent } from './admin-panel/side-nav/side-nav.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { ProductListComponent } from './admin-panel/product-list/product-list.component';
 
 
 
@@ -19,7 +20,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 { path: "", component: AdminPanelComponent },
 ]), FormsModule ],
   providers: [{provide: APP_BASE_HREF, useValue : '/' }],
-  declarations: [ AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent ],
+  declarations: [ AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent, ProductListComponent ],
   bootstrap:    [ AppComponent ]
   
 })
