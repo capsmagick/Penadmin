@@ -15,6 +15,7 @@ import { ProductListComponent } from './admin-panel/product-list/product-list.co
 import { OrdersComponent } from './admin-panel/orders/orders.component';
 import { VendorListComponent } from './admin-panel/vendor-list/vendor-list.component';
 import { NewVendorComponent } from './admin-panel/new-vendor/new-vendor.component';
+import { ProductElementComponent } from './admin-panel/product-list/product-element/product-element.component';
 
 
 
@@ -23,7 +24,7 @@ import { NewVendorComponent } from './admin-panel/new-vendor/new-vendor.componen
     { path: "", component: AdminPanelComponent },
   ]), FormsModule],
   providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
-  declarations: [AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent, ProductListComponent, OrdersComponent, VendorListComponent, NewVendorComponent],
+  declarations: [AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent, ProductListComponent, OrdersComponent, VendorListComponent, NewVendorComponent, ProductElementComponent],
   bootstrap: [AppComponent]
 
 })

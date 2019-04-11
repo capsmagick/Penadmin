@@ -8,3 +8,13 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+.layout-default .page__container, [dir=ltr] .layout-default .page__heading-container, [dir=ltr] .layout-fluid .page__container, [dir=ltr] .layout-fluid .page__heading-container {
+    max-width: 1300px;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
