@@ -1,7 +1,138 @@
-<div class="sidenav">
-	<a href="#about">Dash board</a>
-	<a href="#services">Product</a>
-	<a href="#clients">orders</a>
-	<a href="#contact">Logout</a>
+<div class="mdk-drawer js-mdk-drawer" id="default-drawer" data-align="start" data-position="left" data-domfactory-upgraded="mdk-drawer"
+ data-persistent="" data-opened="">
+	<div class="mdk-drawer__scrim" style=""></div>
+	<div class="mdk-drawer__content" style="">
+		<div class="sidebar sidebar-light sidebar-left simplebar" data-simplebar="init">
+			<div class="simplebar-wrapper" style="margin: 0px;">
+				<div class="simplebar-height-auto-observer-wrapper">
+					<div class="simplebar-height-auto-observer"></div>
+				</div>
+				<div class="simplebar-mask">
+					<div class="simplebar-offset" style="right: -17px; bottom: 0px;">
+						<div class="simplebar-content" style="padding: 0px; height: 100%; overflow: hidden scroll;">
+							<div class="d-flex align-items-center sidebar-p-a border-bottom sidebar-account">
+								<a href="profile.html" class="flex d-flex align-items-center text-underline-0 text-body">
+									<span class="avatar mr-3">
+                    <img src="assets/images/avatar/demi.png" alt="avatar" class="avatar-img rounded-circle">
+                  </span>
+                  <span class="flex d-flex flex-column">
+                    <strong>Adrian Demian</strong>
+                    <small class="text-muted text-uppercase">Account Manager</small>
+                  </span>
+                </a>
+                <div class="dropdown ml-auto">
+                  <a href="#" data-toggle="dropdown" data-caret="false" class="text-muted">
+                    <i class="material-icons">more_vert</i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-item-text dropdown-item-text--lh">
+                      <div><strong>Adrian Demian</strong></div>
+                      <div>@adriandemian</div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item active" href="index.html">Dashboard</a>
+                    <a class="dropdown-item" href="profile.html">My profile</a>
+                    <a class="dropdown-item" href="edit-account.html">Edit account</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="login.html">Logout</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-heading sidebar-m-t">Menu</div>
+              <ul class="sidebar-menu">
+                <li class="sidebar-menu-item active open">
+                  <a class="sidebar-menu-button" data-toggle="collapse" href="#dashboards_menu">
+                    <!-- <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i> -->
+                    <span class="sidebar-menu-text">Dashboards</span>
+                    <span class="ml-auto sidebar-menu-toggle-icon"></span>
+                  </a>
+                  <ul class="sidebar-submenu collapse show" id="dashboards_menu">
+                    <li class="sidebar-menu-item active">
+                      <a class="sidebar-menu-button" href="index.html">
+                        <span class="sidebar-menu-text">Trello</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="sidebar-menu-item"><a class="sidebar-menu-button" data-toggle="collapse" href="#apps_menu">
+                                        <p><span class="glyphicon glyphicon-asterisk"></span></p>
+                                        <!-- <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i> -->
+                                        <span class="sidebar-menu-text">Product</span><span
+                                            class="ml-auto sidebar-menu-toggle-icon"></span>
+                                    </a>
+                                    <ul class="sidebar-submenu collapse" id="apps_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="product-list.html"><span
+                                                    class="sidebar-menu-text">Product</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="product-group.html"><span class="sidebar-menu-text">Product
+                                                    group</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="brand.html"><span class="sidebar-menu-text">Brand</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="category.html"><span class="sidebar-menu-text">Category</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="sales-oders.html"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">view_compact</i><span
+                                            class="sidebar-menu-text">Sales Oders</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" data-toggle="collapse"
+                                        href="#"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">aspect_ratio</i><span
+                                            class="sidebar-menu-text">Returns</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="contacts.html"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">text_format</i><span
+                                            class="sidebar-menu-text">Contacts</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" data-toggle="collapse"
+                                        href="#pages_menu"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i><span
+                                            class="sidebar-menu-text">Logistics</span><span
+                                            class="ml-auto sidebar-menu-toggle-icon"></span></a>
+                                    <ul class="sidebar-submenu collapse" id="pages_menu">
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="supply-center.html"><span class="sidebar-menu-text">Supply
+                                                    Center</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="warehouse.html"><span class="sidebar-menu-text">Ware
+                                                    House</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="pricing.html"><span class="sidebar-menu-text">Shipping
+                                                    Carriers</span></a></li>
+                                        <li class="sidebar-menu-item"><a class="sidebar-menu-button"
+                                                href="edit-account.html"><span
+                                                    class="sidebar-menu-text">Packages</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="purchase.html"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">tune</i><span
+                                            class="sidebar-menu-text">Purchase</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" href="reports.html"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">event_available</i><span
+                                            class="sidebar-menu-text">Reports</span><span
+                                            class="ml-auto sidebar-menu-toggle-icon"></span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" data-toggle="collapse"
+                                        href="#"><i
+                                            class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person</i><span
+                                            class="sidebar-menu-text">Profile</span></a></li>
+                                <li class="sidebar-menu-item"><a class="sidebar-menu-button" data-toggle="collapse"
+                                        href="#">
+                                        <!-- <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">description</i> -->
+                                        <span class="sidebar-menu-text">Settings</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="simplebar-placeholder" style="width: 299px; height: 603px;"></div>
+            </div>
+            <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                <div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); visibility: hidden;">
+                </div>
+            </div>
+            <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                <div class="simplebar-scrollbar"
+                    style="height: 109px; transform: translate3d(0px, 0px, 0px); visibility: visible;"></div>
+            </div>
+        </div>
+    </div>
 </div>
-
