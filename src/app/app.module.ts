@@ -12,6 +12,9 @@ import { NewProductComponent } from './admin-panel/new-product/new-product.compo
 import { SideNavComponent } from './admin-panel/side-nav/side-nav.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { ProductListComponent } from './admin-panel/product-list/product-list.component';
+import { OrdersComponent } from './admin-panel/orders/orders.component';
+import { VendorListComponent } from './admin-panel/vendor-list/vendor-list.component';
+import { NewVendorComponent } from './admin-panel/new-vendor/new-vendor.component';
 
 
 
@@ -20,7 +23,7 @@ import { ProductListComponent } from './admin-panel/product-list/product-list.co
     { path: "", component: AdminPanelComponent },
   ]), FormsModule],
   providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
-  declarations: [AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent, ProductListComponent],
+  declarations: [AppComponent, HelloComponent, AdminPanelComponent, NewProductComponent, SideNavComponent, AdminLoginComponent, ProductListComponent, OrdersComponent, VendorListComponent, NewVendorComponent],
   bootstrap: [AppComponent]
 
 })
